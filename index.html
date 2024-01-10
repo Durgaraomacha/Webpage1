@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADVENTURE</title>
+    <!-- <link rel="stylesheet" href="./style.css"> -->
+    <link rel="stylesheet" href="/Webpage/style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h1 class="logo"><a href="#" style="color: white;">TRAVEL</a></h1> 
+        <ul class="nav-links">
+            <a href="#">Home</a>
+            <a href="#tours">Tours</a>
+            <a href="#explore">Explore</a>
+            <a href="#about">About</a>
+            <a href="#" class="ctn">Contact</a>      
+        </ul>
+        
+        <img src="../Webpage/menu-btn.png" alt="" class="menu-btn">
+    </nav>
+
+
+    <header>
+        <div class="header-content">
+            <h2>Explore The colorful World</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+
+    <!--==Events==-->
+
+    <section class="events" id="tours">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="/Webpage/img1.png">
+                <h4>Everest camp Trek</h4>
+                <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque ex aperiam explicabo animi
+                    quod earum consectetur accusamus aut nobis sit iusto, vitae veniam quasi voluptas asperiores
+                    dignissimos quo tempora modi!</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+
+
+            <div class="col">
+                <img src="/Webpage/img2.png">
+                <h4>walking holidays</h4>
+                <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque ex aperiam explicabo
+                    animi quod earum consectetur accusamus aut nobis sit iusto, vitae veniam quasi voluptas
+                    asperiores dignissimos quo tempora modi!</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="explore" id="explore">
+        <div class="explore-content">
+            <h1>EXPLORE THE WORLD</h1>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quo eius cupiditate ut
+                placeat rem iusto labore, illo odit consequatur quaerat eligendi laborum molestias quod
+                voluptatum sequi aut voluptas incidunt.</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS & DESTINATION</h1>
+                <div class="line"></div>
+                <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure rem dolores magni placeat doloribus?
+                    Fuga magni esse qui itaque. Quam iusto quas, eveniet autem ipsum eos adipisci dignissimos
+                    repudiandae. Tempora.</P>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="/Webpage/img3.png" alt="">
+                    <img src="/Webpage/img4.png" alt="">
+                    <img src="/Webpage/img5.png" alt="">
+                    <img src="/Webpage/img6.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer" id="about">
+        <p>Andhra Pradesh, Anakapalli, India | Phone :   +91  02228812293 | Email: dr.webd4@gmail.com.in</p>
+        <p>Copyright @ 2023 LOADS OF LOGIC</p>
+    </section>
+
+    <script>
+        const menubtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menubtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu')
+        })
+
+    </script>
+</body>
+
+</html>
+
